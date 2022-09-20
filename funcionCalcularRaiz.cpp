@@ -8,6 +8,7 @@ int main()
     
 	int i;
 	float numeros[4]={4,5,7,2};
+	printf("Este es un mensaje nuevo!\n");
 	for(i=0;i<4;i++)
 	{
 		printf("Numero %.1f Raiz: %f\n",numeros[i],calcularRaiz(numeros[i]));
